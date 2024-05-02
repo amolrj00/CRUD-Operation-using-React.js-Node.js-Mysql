@@ -1,0 +1,43 @@
+.Main {
+  display: flex;
+  flex-direction: column; 
+  height: 100vh;
+  background-color: #8FBC8B; 
+  justify-content: center;
+  align-items: center;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.read-btn {
+  background-color: #0CAFFF;
+}
+
+.update-btn {
+  background-color: #3457D5;
+}
+
+.delete-btn {
+  background-color: #FF0800;
+}
+
+.data-container {
+  width: 40%;
+  background-color: #ffffff; 
+  border-radius: 0.25rem; 
+  padding: 0.75rem; 
+}
+
+.create-btn {
+  background-color: #28a745;
+  color: #ffffff; 
+  border: none; 
+  padding: 0.5rem 1rem; 
+  border-radius: 0.25rem; 
+  cursor: pointer; 
+  text-decoration: none; 
+  font-size: 1rem ;
+}
